@@ -2,7 +2,20 @@ import './App.css';
 
 import React from 'react';
 
-import UseEffectHook from './hooks/useEffectHook/UseEffectHook';
+import UseCallbackHook from './hooks/useCallbackHook/UseCallbackHook';
+
+// import UseMemoHook from './hooks/useMemoHook/UseMemoHook';
+
+// import UseContextHook from './hooks/useContextHook/UseContextHook';
+
+// import UseImperativeHandleHook
+//   from './hooks/useImperativeHandle/UseImperativeHandleHook';
+
+// import UseLayoutEffectHook from './hooks/useLayoutEffect/UseLayoutEffectHook';
+
+// import UseRefHook from './hooks/useRefHook/UseRefHook';
+
+// import UseEffectHook from './hooks/useEffectHook/UseEffectHook';
 
 // import UseReducerHook from './hooks/useReducerHook/UseReducerHook';
 
@@ -13,7 +26,13 @@ const App = () => {
         <div className="App">
             {/* <UseStateHook /> */}
             {/* <UseReducerHook /> */}
-            <UseEffectHook />
+            {/* <UseEffectHook /> */}
+            {/* <UseRefHook /> */}
+            {/* <UseLayoutEffectHook /> */}
+            {/* <UseImperativeHandleHook /> */}
+            {/* <UseContextHook /> */}
+            {/* <UseMemoHook /> */}
+            <UseCallbackHook />
         </div>
     );
 }
